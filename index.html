@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>House warming function</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700">
+  <link rel="stylesheet" href="utils.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<div id="main" class="centrar"></div>
+<div id="cover" class="centrar canvas">
+  <div id="invitado" class="centrar">Guest</div>
+</div>
+<div id="invite" class="centrar canvas">
+  <div id="frame" class="centrar"></div>
+  <div class="label t1"></div>
+  <div class="label t2"></div>
+  <div class="label t3"></div>
+  <div class="label t4"></div>
+  <div class="label t5"></div>
+  <div class="sticker s1" onclick="popit('pop_iglesia')"></div>
+  <div class="sticker s4" onclick="popit('pop_contacto')"></div>
+  <div class="sticker s2" onclick="popit('pop_cocktail')"></div>
+  <div class="sticker s3" onclick="popit('pop_regalos')"></div>
+</div>
+
+<div id="popspace" class="centrar" onclick="closeall()"></div>
+<div id="pop_iglesia" class="popup centrar"><div class="closebtn" onclick="closepop('pop_iglesia')">&times;</div>
+ Sree hari colony,backside of Munnaiah swamy temple,Near Rameshwaram,Proddatur,Kadapa (Dist),AndhraPradesh. <a href="https://www.google.com/maps/place/14%C2%B044'39.4%22N+78%C2%B032'03.3%22E/@14.7438119,78.5337146,19z/data=!4m4!3m3!8m2!3d14.744268!4d78.534237" target="_blank">Google map link</a>
+</div>
+<div id="pop_cocktail" class="popup centrar"><div class="closebtn" onclick="closepop('pop_cocktail')">&times;</div>
+  sathyanarayana Vratham Starts at 10:00AM on 25th FEB 2023.
+ 
+</div>
+<div id="pop_regalos" class="popup centrar"><div class="closebtn" onclick="closepop('pop_regalos')">&times;</div>
+ sathyanarayana Vratham Starts at 10:00AM on 25th FEB 2023.
+</div>
+<div id="pop_contacto" class="popup centrar"><div class="closebtn" onclick="closepop('pop_contacto')">&times;</div>
+ sathyanarayana Vratham Starts at 10:00AM on 25th FEB 2023.
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html> 
